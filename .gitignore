@@ -1,0 +1,13 @@
+# The Infinity Stones (Secrets)
+.env
+node_modules/
+dist/
+.DS_Store
+
+# Backend specific
+backend/node_modules/
+backend/.env
+
+# Frontend specific
+frontend/node_modules/
+frontend/dist/
