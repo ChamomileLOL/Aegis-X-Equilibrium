@@ -14,7 +14,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('/api/policy/evaluate', formData);
+      const res = await axios.post('https://aegis-x-backend-x6pr.onrender.com', formData);
       setResult(res.data.data);
     } catch (err) {
       alert("Policy Violation Detected!");
